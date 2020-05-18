@@ -47,7 +47,7 @@ a:hover { color: #10444c; }
 #columnleft{
     display: inline-block;
     height: 100%;
-    width: 53%;
+    max-width: 300px;
     padding: 10px;
     background-color: rgba(150,207,189,0.5);
     border-radius: 10px;
@@ -59,8 +59,9 @@ a:hover { color: #10444c; }
 
 #columnright {
     display: inline-block;
+    vertical-align: top;
     height: 100%;
-    width: 39%;
+    max-width: 300px;
     margin-top: 3px;
     margin-left: 10px;
     margin-right: 10px;
@@ -109,4 +110,12 @@ a:hover { color: #10444c; }
 }
 
 #linkedin:hover { opacity: 100%; }
+
+@media screen and (max-width: 600px) 
+{
+  .left-div, .right-div
+    {
+       max-width: 100%;
+    }
+}
 
