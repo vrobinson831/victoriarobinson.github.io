@@ -45,7 +45,7 @@ a:hover { color: #10444c; }
 } 
 
 #columnleft{
-    display: inline-block;
+    display: flex;
     height: 100%;
     max-width: 300px;
     padding: 10px;
@@ -58,7 +58,7 @@ a:hover { color: #10444c; }
 } 
 
 #columnright {
-    display: inline-block;
+    display: flex;
     vertical-align: top;
     height: 100%;
     max-width: 300px;
