@@ -30,11 +30,12 @@ a:hover { color: #10444c; }
 
 #front-page-photo{
     width: 325px;
-    max-width: 100%;
+    max-width: 500px;
     min-width: 90%;
     height: auto;
     display: block;
     margin: auto;
+    margin-top: 30px;
     border-radius: 50%;
 }
 
