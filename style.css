@@ -52,6 +52,7 @@ a:hover { color: #10444c; }
     background-color: rgba(150,207,189,0.5);
     border-radius: 10px;
     line-height: 135%;
+    float: left;
     font-size: 16.5px;
     margin-left: 30px;
     border-style: solid;
