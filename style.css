@@ -59,7 +59,6 @@ a:hover { color: #10444c; }
 
 #columnright {
     float: left;
-    vertical-align: top;
     height: 100%;
     width: 300px;
     margin-top: 3px;
