@@ -55,6 +55,7 @@ a:hover { color: #10444c; }
     font-size: 16.5px;
     margin-left: 30px;
     border-style: solid;
+    border-width: 3px;
 } 
 
 #columnright {
@@ -65,7 +66,6 @@ a:hover { color: #10444c; }
     margin-left: 10px;
     margin-right: 10px;
     margin-bottom: 3px;
-    border-style:solid;
 } 
 
 #headerleft {
