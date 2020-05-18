@@ -30,7 +30,7 @@ a:hover { color: #10444c; }
 
 #front-page-photo{
     width: 325px;
-    max-width: 500px;
+    max-width: 100%;
     min-width: 90%;
     height: auto;
     display: block;
@@ -39,14 +39,14 @@ a:hover { color: #10444c; }
 }
 
 #column { 
-    overflow:auto; 
+    overflow: auto; 
     width: 100%; 
     height: auto;
 } 
 
 #columnleft{
     height: 100%;
-    width: 500px;
+    width: 53%;
     padding: 10px;
     background-color: rgba(150,207,189,0.5);
     border-radius: 10px;
@@ -60,7 +60,7 @@ a:hover { color: #10444c; }
 #columnright {
     float: left;
     height: 100%;
-    width: 300px;
+    width: 39%;
     margin-top: 3px;
     margin-left: 10px;
     margin-right: 10px;
