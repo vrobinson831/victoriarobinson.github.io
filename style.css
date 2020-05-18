@@ -1,0 +1,110 @@
+/* CSS files add styling rules to your content */
+
+body {
+    background-color: #01444c;
+    background: linear-gradient(to right top, #01444c, #006b6d, #009585, #2bbf93, #6de998) fixed;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    margin: 2em;
+  }
+  
+  h1 {
+    color: #cee8e0;
+    color: #dcefe9;
+    font-family: 'Roboto', sans-serif;
+    font-size: 3.3em;
+    font-weight: 100;
+    margin-top: 10px;
+    margin-left: 30px;
+    margin-bottom: 50px;
+  }
+
+a { color: white; }
+
+a:hover { color: #10444c; }
+
+.white-text{
+    color: white;
+    margin: 5px;
+}
+
+#front-page-photo{
+    width: 325px;
+    max-width: 100%;
+    min-width: 90%;
+    height: auto;
+    display: block;
+    margin: auto;
+    border-radius: 50%;
+}
+
+#column { 
+    overflow:auto; 
+    width: 100%; 
+    height: auto;
+} 
+
+#columnleft{
+    height: 100%;
+    width: 53%;
+    float: left;
+    padding: 10px;
+    background-color: rgba(150,207,189,0.5);
+    border-radius: 10px;
+    line-height: 135%;
+    font-size: 16.5px;
+    margin-left: 30px;
+} 
+
+#columnright {
+    height: 100%;
+    width: 39%;
+    margin-top: 3px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 3px;
+    float: left;
+} 
+
+#headerleft {
+    width: 50%;
+    float: left;
+}
+
+#headerright {
+    width: 50%;
+    float: right;
+}
+
+#email {
+    margin: 10px;
+    width: 60px;
+    opacity: 82%;
+}
+
+#email:hover { opacity: 100%; }
+
+#facebook {
+    margin: 10px;
+    width: 60px;
+    opacity: 82%;
+}
+
+#facebook:hover { opacity: 100%; }
+
+#github {
+    margin: 10px;
+    width: 60px;
+    opacity: 82%;
+}
+
+#github:hover { opacity: 100%; }
+
+#linkedin {
+    margin: 10px;
+    width: 60px;
+    opacity: 82%;
+}
+
+#linkedin:hover { opacity: 100%; }
+
